@@ -1,0 +1,13 @@
+{
+  "name": "atividade-form-express",
+  "version": "1.0.0",
+  "description": "Atividade 2 - Express + HTML form (Cadastro de Produto)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
