@@ -9,3 +9,5 @@ npm start
 
 ## Vercel
 Importe o repositório. `vercel.json` roteia `/` → `api/form.js` e o POST para `api/processa.js`.
+
+//Npm Install antes e depois rode
