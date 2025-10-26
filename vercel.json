@@ -1,4 +1,5 @@
-git add vercel.json
-git commit -m "fix: vercel.json válido (builds + rota / -> /api/form.js)"
-git push
-
+{
+  "version": 2,
+  "builds": [{ "src": "api/*.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "^/$", "dest": "/api/form.js" }]
+}
